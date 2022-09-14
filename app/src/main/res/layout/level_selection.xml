@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/semi_transparent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:paddingTop="20dp"
+        android:shape="rectangle"
+        app:cardBackgroundColor="@color/semi_transparent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hand_removebg" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/beginner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_green"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/beginner"
+        android:textColor="@color/green"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/intermediate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn_yellow"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/intermediate"
+            android:textColor="@color/yellow"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_marginStart="20dp"
+            android:id="@+id/advanced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn_red"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/advanced"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

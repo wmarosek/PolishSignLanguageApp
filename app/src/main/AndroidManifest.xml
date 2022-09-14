@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.polishSignLanguage.detection">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/psl_launcher"
+        android:label="@string/tfe_od_app_name"
+        android:roundIcon="@mipmap/psl_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ObjectDetection">
+        <activity
+            android:name="com.polishSignLanguage.detection.MainActivity"
+            android:label="@string/tfe_od_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ObjectDetection.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.polishSignLanguage.detection.DetectorActivity"
+            android:label="@string/tfe_od_app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.polishSignLanguage.detection.LevelSelectionActivity"
+            android:label="@string/tfe_od_app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.polishSignLanguage.detection.LearnGestureActivity"
+            android:label="@string/tfe_od_app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.polishSignLanguage.detection.LearnWordActivity"
+            android:label="@string/tfe_od_app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-sdk />
+
+</manifest>

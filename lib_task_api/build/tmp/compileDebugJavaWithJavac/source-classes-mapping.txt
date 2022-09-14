@@ -1,0 +1,7 @@
+org/tensorflow/lite/examples/polishSignLanguageApplication/tflite/TFLiteObjectDetectionAPIModel.java
+ com.polishSignLanguage.detection.tflite.TFLiteObjectDetectionAPIModel
+org/tensorflow/lite/examples/polishSignLanguageApplication/tflite/Detector.java
+ com.polishSignLanguage.detection.tflite.Detector
+ com.polishSignLanguage.detection.tflite.Detector$Recognition
+com/polishSignLanguage/detection/tflite/BuildConfig.java
+ com.polishSignLanguage.detection.tflite.BuildConfig

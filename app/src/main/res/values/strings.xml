@@ -1,0 +1,27 @@
+<resources>
+    <string name="tfe_od_app_name" translation_description="Polish Sign Language - object detection app">Polish Sign Language</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support">This device doesn\'t support Camera2 API.</string>
+    <string name="app_name">Polish Sign Language</string>
+    <string name="app_name_dectector">Detector</string>
+
+    <string name="recognition">Recognition</string>
+    <string name="learning">Learning</string>
+
+    <!--        Level selection         -->
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+
+    <string name="correct">Correct!</string>
+    <string name="try_again">Try again!</string>
+    <string name="congrats">Congrats!</string>
+    <string name="next">Next</string>
+    <string name="repeat">Repeat</string>
+    <string name="remind">Remind!</string>
+    <string name="remove">Remove</string>
+    <string name="copyText">Copy</string>
+    <string name="show_example">Show example</string>
+    <string name="change_n_level">Change\n level!</string>
+    <string name="generate_n_new_word">Generate\n new word!</string>
+
+</resources>

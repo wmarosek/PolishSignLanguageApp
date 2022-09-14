@@ -1,0 +1,2 @@
+rootProject.name = 'Polish Sign Language'
+include ':app', ':lib_interpreter', ':lib_task_api'
